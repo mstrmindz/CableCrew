@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Network Configuration - Cable Crew</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+  <nav class="bg-blue-900 text-white p-4 fixed top-0 left-0 right-0 z-50 shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">Cable Crew</a>
+      <div class="relative group">
+        <button class="focus:outline-none bg-yellow-400 text-blue-900 font-semibold px-4 py-2 rounded-lg shadow-md hover:bg-yellow-300 transition flex items-center space-x-2">
+          <span>Services</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="absolute hidden group-hover:block group-focus:block bg-white text-gray-800 rounded-lg shadow-lg mt-2 w-64 z-50 ring-1 ring-gray-300">
+          <a href="server-installation.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Server Installation & Maintenance</a>
+          <a href="hardware-troubleshooting.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Hardware Troubleshooting</a>
+          <a href="network-configuration.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Network Configuration</a>
+          <a href="low-voltage-cabling.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Low Voltage Cabling Service</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="relative bg-blue-900 text-white py-20 px-6 fade-in">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+      <div class="text-center md:text-left md:flex-1">
+        <div class="flex items-center justify-center md:justify-start mb-6 space-x-4">
+          <div class="text-yellow-400 text-5xl">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h1 class="text-4xl md:text-6xl font-extrabold">Network Configuration</h1>
+        </div>
+        <p class="text-lg md:text-2xl max-w-3xl mb-8">Optimizing your data center network for security, speed, and reliability.</p>
+        <a href="#contact" class="inline-block bg-yellow-400 text-blue-900 font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-yellow-300 transition">Get a Free Consultation</a>
+      </div>
+      <div class="md:flex-1">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Technician working with internet equipment and wires in server room" class="rounded-lg shadow-lg mx-auto" />
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow max-w-4xl mx-auto p-6">
+    <p>Cable Crew offers expert network configuration services to optimize your data center’s security, speed, and reliability. Our technicians ensure your network infrastructure is robust and scalable.</p>
+    <ul class="list-disc list-inside mt-4">
+      <li>Network design and implementation</li>
+      <li>Security configuration and monitoring</li>
+      <li>Performance tuning and optimization</li>
+      <li>Scalable solutions for growing data centers</li>
+    </ul>
+  </main>
+
+  <!-- Contact CTA Section -->
+  <section id="contact-cta" class="bg-yellow-400 py-12 text-center">
+    <h2 class="text-3xl font-bold text-blue-900 mb-4">Ready to get started?</h2>
+    <a href="index.html#contact" class="inline-block bg-blue-900 text-yellow-400 font-semibold px-10 py-4 rounded-lg shadow-lg hover:bg-blue-800 transition">Get a Free Consultation</a>
+  </section>
+
+  <footer class="bg-blue-900 text-white py-6 text-center">
+    <p>&copy; 2024 Cable Crew. All rights reserved.</p>
+  </footer>
+</body>
+</html>
