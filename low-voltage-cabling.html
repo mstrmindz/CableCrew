@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Low Voltage Cabling Service - Cable Crew</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
+  <nav class="bg-blue-900 text-white p-4 fixed top-0 left-0 right-0 z-50 shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="flex items-center space-x-3 text-yellow-400 font-extrabold text-3xl hover:text-yellow-300 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2 12l4 4v-3h12v-2H6v-3l-4 4zM18 8v8a2 2 0 002 2h2a2 2 0 002-2v-8a2 2 0 00-2-2h-2a2 2 0 00-2 2z" />
+        </svg>
+        <span>Cable Crew</span>
+      </a>
+      <div class="relative group">
+        <button class="focus:outline-none bg-yellow-400 text-blue-900 font-semibold px-4 py-2 rounded-lg shadow-md hover:bg-yellow-300 transition flex items-center space-x-2">
+          <span>Services</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="absolute hidden group-hover:block group-focus:block bg-white text-gray-800 rounded-lg shadow-lg mt-2 w-64 z-50 ring-1 ring-gray-300">
+          <a href="server-installation.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Server Installation & Maintenance</a>
+          <a href="hardware-troubleshooting.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Hardware Troubleshooting</a>
+          <a href="network-configuration.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Network Configuration</a>
+          <a href="low-voltage-cabling.html" class="block px-4 py-3 hover:bg-yellow-100 rounded-lg transition font-medium">Low Voltage Cabling Service</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="relative bg-blue-900 text-white py-20 px-6 fade-in">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+      <div class="text-center md:text-left md:flex-1">
+        <div class="flex items-center justify-center md:justify-start mb-6 space-x-4">
+          <div class="text-yellow-400 text-5xl">
+            <i class="fas fa-plug"></i>
+          </div>
+          <h1 class="text-4xl md:text-6xl font-extrabold">Low Voltage Cabling Service</h1>
+        </div>
+        <p class="text-lg md:text-2xl max-w-3xl mb-8">Expert installation and maintenance of low voltage cabling systems for your data center and facilities.</p>
+        <a href="#contact" class="inline-block bg-yellow-400 text-blue-900 font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-yellow-300 transition">Get a Free Consultation</a>
+      </div>
+      <div class="md:flex-1">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Technician working with internet equipment and wires in server room" class="rounded-lg shadow-lg mx-auto" />
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow max-w-4xl mx-auto p-6">
+    <p>Cable Crew specializes in expert installation and maintenance of low voltage cabling systems for data centers and facilities. We ensure your infrastructure is reliable and future-proof.</p>
+    <ul class="list-disc list-inside mt-4">
+      <li>Structured cabling design and installation</li>
+      <li>Fiber optic and copper cabling solutions</li>
+      <li>Testing and certification of cabling systems</li>
+      <li>Maintenance and troubleshooting services</li>
+    </ul>
+  </main>
+
+  <!-- Contact CTA Section -->
+  <section id="contact-cta" class="bg-yellow-400 py-12 text-center">
+    <h2 class="text-3xl font-bold text-blue-900 mb-4">Ready to get started?</h2>
+    <a href="index.html#contact" class="inline-block bg-blue-900 text-yellow-400 font-semibold px-10 py-4 rounded-lg shadow-lg hover:bg-blue-800 transition">Get a Free Consultation</a>
+  </section>
+
+  <footer class="bg-blue-900 text-white py-6 text-center">
+    <p>&copy; 2024 Cable Crew. All rights reserved.</p>
+  </footer>
+</body>
+</html>
